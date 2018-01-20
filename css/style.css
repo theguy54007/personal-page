@@ -114,6 +114,7 @@ header{
 .container_table_cell h2{
   color: #fff;
   font-size: 54px;
+  text-transform: capitalize;
 }
 
 .social_icons a{
@@ -124,4 +125,86 @@ header{
   line-height: 40px;
   margin-right: 17px;
   font-size: 29px;
+}
+
+/*========About me======== */
+
+.about_me{
+  padding: 100px 0;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear:both;
+
+}
+
+h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 75px;
+  line-height: 50px;
+}
+
+.col_left, .col_right{
+  width: 50%;
+  float:left;
+  padding:0px 15px;
+}
+
+.personal_info h3{
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+  text-transform: capitalize;
+}
+
+.personal_info p{
+  color: #767676;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.skill{
+  margin: 30px auto;
+}
+
+.skill li{
+  text-transform: capitalize;
+  font-size: 15px;
+  line-height: 35px;
+}
+
+.button_group .download_cv, .button_group .hire_me{
+  display: inline-block;
+}
+
+.button_group .download_cv{
+  margin-right: 18px;
+}
+
+.button_group a{
+  display: block;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 10px 38px;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.col_left .avatar{
+  width: 80%;
+}
+
+.button_group a:hover{
+  background-color: #000;
+  color: #fff;
+  -webkit-transition: all .4s linear;
+  -moz-transition: all .4s linear;
+  -ms-transition: all .4s linear;
+  -o-transition: all .4s linear;
+  transition: all .4s linear;
 }
