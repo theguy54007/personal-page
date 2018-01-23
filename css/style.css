@@ -208,3 +208,35 @@ h2{
   -o-transition: all .4s linear;
   transition: all .4s linear;
 }
+
+/*========My service======== */
+
+.my_service{
+  background-color: #f9f9f9;
+  padding: 100px 0 ;
+}
+
+.service_content{
+  float: left;
+  width: 33.33333333%;
+  padding:0 15px;
+}
+
+.service_content i{
+  font-size: 30px;
+  line-height: 46px;
+}
+
+
+.service_content h3{
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 13px 0 8px 0 ;
+}
+
+.service_content p{
+  font-size: 14px;
+  color: #767676;
+  font-weight: 300;
+  line-height: 24px;
+}
