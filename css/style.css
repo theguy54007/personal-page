@@ -40,13 +40,24 @@ img {
 }
 
 
-/*==header===== */
 .container {
   width: 85%;
   max-width: 1170px;
   margin: 0 auto;
   position: relative;
 }
+
+section{
+  padding: 100px 0;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear:both;
+
+}
+/*==header===== */
 
 header{
   background-color: #222;
@@ -129,16 +140,8 @@ header{
 
 /*========About me======== */
 
-.about_me{
-  padding: 100px 0;
-}
 
-.clearfix::after{
-  content: "";
-  display: table;
-  clear:both;
 
-}
 
 h2{
   text-transform: uppercase;
@@ -213,7 +216,7 @@ h2{
 
 .my_service{
   background-color: #f9f9f9;
-  padding: 100px 0 ;
+
 }
 
 .service_content{
@@ -239,4 +242,60 @@ h2{
   color: #767676;
   font-weight: 300;
   line-height: 24px;
+}
+
+/*========resume======== */
+
+
+
+.col-horizontal {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #767676;
+}
+
+.col-horizontal:last-child {
+  border-bottom: 0;
+}
+
+h3.resume-subtitle{
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 12px;
+}
+
+.col-horizontal .col-item{
+  float: left;
+  width: 50%;
+  padding: 0px 15px;
+
+}
+
+
+.experience-year{
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  padding: 4px 20px;
+
+  margin:15px 0 10px ;
+}
+
+
+
+.resume-detail h4 {
+text-transform: capitalize;
+font-size: 16px;
+line-height: 30px;
+}
+
+.resume-detail h6{
+  text-transform: capitalize;
+  margin-bottom: 9px;
+  font-size: 12px;
+
+}
+
+.resume-detail p{
+  line-height: 22px;
 }
