@@ -299,3 +299,54 @@ line-height: 30px;
 .resume-detail p{
   line-height: 22px;
 }
+
+
+/*========quote======== */
+.quote{
+  background-image: url(../img/quote.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 60%;
+  background-attachment: fixed;
+
+}
+
+.quote-inner{
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.quote-inner h3{
+  font-size: 28px;
+  text-transform: capitalize;
+}
+
+.quote-inner p{
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+
+.quote-inner a{
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 49px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 22px;
+  letter-spacing: 3px;
+}
+
+.quote-inner a:hover{
+  background-color: #fff;
+  color: #000;
+  -webkit-transition: all .4s linear;
+  -moz-transition: all .4s linear;
+  -ms-transition: all .4s linear;
+  -o-transition: all .4s linear;
+  transition: all .4s linear;
+}
