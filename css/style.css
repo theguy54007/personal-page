@@ -550,7 +550,7 @@ display: block;
 /*mobile device*/
 
 @media screen and (min-width: 1024px) {
-  .menu-button {
+  .menu-button, .menu-button-checkbox {
     display: none;
   }
 }
@@ -587,12 +587,22 @@ display: block;
 .nav li{
   padding-top: 20px;
 }
-.menu-button:hover ~.nav{
- display: block;
-}
-.nav:hover{
-  display:block;
-}
+
+.menu-button-checkbox {
+   position: fixed;
+   top: 0;
+   right: 0;
+   width: 55px;
+   height: 40px;
+   opacity: 0;
+ }
+
+ .menu-button-checkbox:checked ~ .nav {
+   display: block;
+ }
+
+
+
 
 /*mobile device-about me*/
 .col_left {
