@@ -591,7 +591,19 @@ display: block;
 .nav:hover{
   display:block;
 }
+.col_left {
+  width: auto;
+  margin: 0 auto 20px ;
+}
 
+.col_left .avatar{
+  width: 100%;
+  margin: 0 auto;
+}
+ .col_right{
+   width: auto;
+   margin: 0 20px;
+ }
 
 
 
