@@ -612,7 +612,7 @@ display: block;
 /*mobile device-my service*/
 
 .my_service .container .service_items .service_content{
-  width:auto;
+  width:100%;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -620,9 +620,32 @@ display: block;
 
 
 
-.my_service .container .service_items .service_content p{
-  text-align: left;
+
+
+/*mobile device-resume*/
+.resume .container {
+  width:100%;
+  text-align: center;
 }
+
+
+
+.resume-button a{
+  display: inline-block;
+  float: none;
+}
+
+.resume .container .summary .col-horizontal .col-item {
+  width:100%;
+  text-align: center;
+}
+
+.col-horizontal:first-child {
+  border-bottom: 0;
+}
+
+
+
 
 
 
