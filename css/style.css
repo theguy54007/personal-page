@@ -545,3 +545,54 @@ display: block;
   font-weight: bold;
   margin-bottom: 30px;
 }
+
+
+/*mobile device*/
+
+@media screen and (min-width: 1024px) {
+  .menu-button {
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 1023px) {
+  .container {
+  width: auto;
+}
+ .menu-button{
+   float: right;
+   font-size: 25px;
+   line-height: 40px;
+   color: white;
+   background: transparent;
+   padding: 0 15px;
+   border: 0;
+ }
+
+.nav{
+  display:none;
+  margin-top: 0;
+  padding-left: 0;
+  position: fixed;
+  right: 0;
+  top: 40px;
+  width: 100px;
+  height: 100%;
+  background-color: #222;
+}
+.nav li{
+  padding-top: 20px;
+}
+.menu-button:hover ~.nav{
+ display: block;
+}
+.nav:hover{
+  display:block;
+}
+
+
+
+
+}
