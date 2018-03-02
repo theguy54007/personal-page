@@ -660,6 +660,58 @@ display: block;
   display: none;
 }
 
+
+/*mobile device-resume-page*/
+
+.imap .container .resume-intro .col-left,
+.yulan .container .resume-intro .col-left,
+.nccu .container .resume-intro .col-left,
+.kinder .container .resume-intro .col-left{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.imap .container .resume-intro .col-right,
+.yulan .container .resume-intro .col-right,
+.nccu .container .resume-intro .col-right,
+.kinder .container .resume-intro .col-right{
+  width: 100%;
+  text-align: center;
+}
+
+.imap .container .resume-intro .col-right h3,
+.yulan .container .resume-intro .col-right h3,
+.nccu .container .resume-intro .col-right h3,
+.kinder .container .resume-intro .col-right h3{
+  font-size: 50px;
+}
+
+.imap .container .resume-intro .col-right p,
+.yulan .container .resume-intro .col-right p,
+.nccu .container .resume-intro .col-right p,
+.kinder .container .resume-intro .col-right p{
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.imap .container .resume-intro .col-right .resume-about-image,
+.yulan .container .resume-intro .col-right .resume-about-image,
+.nccu .container .resume-intro .col-right .resume-about-image,
+.kinder .container .resume-intro .col-right .resume-about-image{
+  width: 100%;
+}
+
+.imap .container .resume-work,
+.yulan .container .resume-work,
+.nccu .container .resume-work,
+.kinder .container .resume-work{
+  width: auto;
+
+}
+
+
 }
 /*mobile device-profile*/
 
