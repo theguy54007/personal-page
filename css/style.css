@@ -561,6 +561,8 @@ display: block;
   .container {
   width: auto;
 }
+
+/*mobile device- navbar*/
  .menu-button{
    float: right;
    font-size: 25px;
@@ -591,6 +593,8 @@ display: block;
 .nav:hover{
   display:block;
 }
+
+/*mobile device-about me*/
 .col_left {
   width: auto;
   margin: 0 auto 20px ;
@@ -604,6 +608,22 @@ display: block;
    width: auto;
    margin: 0 20px;
  }
+
+/*mobile device-my service*/
+
+.my_service .container .service_items .service_content{
+  width:auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+
+
+.my_service .container .service_items .service_content p{
+  text-align: left;
+}
+
 
 
 
