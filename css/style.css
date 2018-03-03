@@ -499,7 +499,7 @@ display: block;
 
 .resume-about{
   margin-top: 10px;
-  margin-left: 100px;
+  text-align: center;
   padding-top: 5px;
   font-size: 30px;
 }
@@ -668,8 +668,25 @@ display: block;
 .nccu .container .resume-intro .col-left,
 .kinder .container .resume-intro .col-left{
   width: 100%;
-  text-align: center;
+
   margin-bottom: 20px;
+
+}
+
+.imap .container .resume-intro .col-left .resume-image,
+.yulan .container .resume-intro .col-left .resume-image,
+.nccu .container .resume-intro .col-left .resume-image,
+.kinder .container .resume-intro .col-left .resume-image{
+  width: 100%;
+
+}
+
+.imap .container .resume-intro .col-left .resume-about h3,
+.yulan .container .resume-intro .col-left .resume-about h3,
+.nccu .container .resume-intro .col-left .resume-about h3,
+.kinder .container .resume-intro .col-left .resume-about h3{
+  display: inline-block;
+  text-align: center;
 
 }
 
@@ -685,15 +702,17 @@ display: block;
 .yulan .container .resume-intro .col-right h3,
 .nccu .container .resume-intro .col-right h3,
 .kinder .container .resume-intro .col-right h3{
-  font-size: 50px;
+  font-size: 40px;
+
 }
 
 .imap .container .resume-intro .col-right p,
 .yulan .container .resume-intro .col-right p,
 .nccu .container .resume-intro .col-right p,
 .kinder .container .resume-intro .col-right p{
-  font-size: 30px;
-  line-height: 40px;
+  line-height: 30px;
+  margin: 0 10px;
+  text-align: left;
 }
 
 .imap .container .resume-intro .col-right .resume-about-image,
