@@ -124,3 +124,38 @@ section{
   font-size: 30px;
   color: black;
 }
+
+/*mobile device*/
+
+
+
+
+@media screen and (max-width: 1023px) {
+
+
+
+.title {
+  font-size: 40px;
+}
+
+
+.title .container img{
+  width:60%;
+}
+
+
+
+.col {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+.col .blackjack img,
+.col .tictac img,
+.col .rock img{
+  width: 100%;
+}
+
+
+}
