@@ -3,7 +3,9 @@ $(document).on('ready', function(){
     arrows: true,
     dots: true,
     infinite: true,
-    autoplay: true
+    autoplay: true,
+    pauseOnHover: true,
+    pauseOnDotsHover:true
   });
   $('.personal-slick').slick({
     arrows: true,

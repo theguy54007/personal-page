@@ -465,7 +465,6 @@ line-height: 30px;
   width: 100%;
   float: left;
   padding: 0 15px;
-  max-height: 600px;
   
 }
 .col-work .work-info img{
@@ -760,7 +759,9 @@ display: block;
 /*mobile device*/
 
 @media screen and (min-width: 1024px) {
-  .menu-button, .menu-button-checkbox {
+  .menu-button, 
+  .menu-button-checkbox, 
+  .mobile-content {
     display: none;
   }
 }
@@ -923,9 +924,18 @@ display: block;
 .yulan .container .resume-intro .col-right h3,
 .nccu .container .resume-intro .col-right h3,
 .kinder .container .resume-intro .col-right h3{
-  font-size: 40px;
+  font-size:13px;
 
 }
+
+.imap .container .resume-intro .col-right h4,
+.yulan .container .resume-intro .col-right h4,
+.nccu .container .resume-intro .col-right h4,
+.kinder .container .resume-intro .col-right h4{
+  font-size:11px;
+
+}
+
 
 .imap .container .resume-intro .col-right p,
 .yulan .container .resume-intro .col-right p,
@@ -947,27 +957,59 @@ display: block;
 .yulan .container .resume-work,
 .nccu .container .resume-work,
 .kinder .container .resume-work{
-  width: 80%;
+  width: 100%;
   text-align: left;
 
 }
 
+.imap .container .resume-work h3,
+.yulan .container .resume-work h3,
+.nccu .container .resume-work h3,
+.kinder .container .resume-work h3{
+  
+  font-size: 11px;
+}
+
+
+.imap .container .resume-work th,
+.yulan .container .resume-work th,
+.nccu .container .resume-work th,
+.kinder .container .resume-work th{
+  width: 15%;
+  text-align: left;
+  font-size: 10px;
+}
+
+.imap .container .resume-work td,
+.yulan .container .resume-work td,
+.nccu .container .resume-work td,
+.kinder .container .resume-work td{
+  width: 85%;
+  text-align: left;
+  font-size: 5px;
+}
 
 /* mobile device-javascript*/
 .javascript .title {
-  font-size: 40px;
+  font-size: 20px;
+}
+
+.javascript{
+  height: 100%;
 }
 
 .col {
   width: 100%;
   text-align: center;
   display: inline-block;
+  margin-bottom: 0px;
 }
 
 .col .hero img,
 .col .todolist img,
 .col .light img{
   width: 100%;
+
 }
 
 
@@ -979,34 +1021,49 @@ display: block;
 .works .container .work-item .col-work {
   width: 100%;
 
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 .work-info img{
   margin-bottom: 2px;
-  z-index: 9999;
+
 }
 
-.work-info h4{
-  width: 100%;
-  display: block;
-  background-color: #f7f7f7;
-  margin-top: 0%;
-  top: 0%;
+.work-info h4, .col-work  :hover h4 {
+  display: none;
+ }
+
+
+ .mobile-content{
+margin-top: 10px;
+display: block;
+}
+ .mobile-content p{
+font-size: 20px;
+font-weight: 10px;
+line-height: 30px;
+
+}
+
+.mobile-content h3{
+  text-align: center;
+  margin-top: 2px;
+  font-size: 40px;
+}
+
+.mobile-content h5{
+  
+  margin-top: 2px;
+  font-size: 25px;
+}
+
+.mobile-content a{
   color: black;
-}
-
-
-.work-info h4 p {
+  font-size: 26px;
   width: 100%;
-  display: block;
-  background-color: none;
-  margin-top: 0
-  color: black;
 }
 
 
-}
 
 
 
