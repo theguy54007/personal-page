@@ -924,7 +924,7 @@ display: block;
 .yulan .container .resume-intro .col-right h3,
 .nccu .container .resume-intro .col-right h3,
 .kinder .container .resume-intro .col-right h3{
-  font-size:13px;
+  font-size:20px;
 
 }
 
@@ -932,7 +932,7 @@ display: block;
 .yulan .container .resume-intro .col-right h4,
 .nccu .container .resume-intro .col-right h4,
 .kinder .container .resume-intro .col-right h4{
-  font-size:11px;
+  font-size:16px;
 
 }
 
@@ -967,7 +967,7 @@ display: block;
 .nccu .container .resume-work h3,
 .kinder .container .resume-work h3{
   
-  font-size: 11px;
+  font-size: 16px;
 }
 
 
@@ -977,7 +977,7 @@ display: block;
 .kinder .container .resume-work th{
   width: 17%;
   text-align: left;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .imap .container .resume-work td,
@@ -986,7 +986,7 @@ display: block;
 .kinder .container .resume-work td{
   width: 83%;
   text-align: left;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 /* mobile device-javascript*/
