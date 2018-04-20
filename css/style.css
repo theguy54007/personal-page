@@ -245,7 +245,7 @@ h2{
 
 .my_service{
   background-color: #f9f9f9;
-  height: 80%;
+  
 }
 
 .service_items h3{
@@ -259,7 +259,6 @@ h2{
   float: left;
   width: 25%;
   padding:0 20px;
-  max-height: 50%;
   margin-top: 20px;
 
 }
@@ -273,7 +272,6 @@ h2{
   float: left;
   width: 33.3333333%;
   padding:0 20px;
-  max-height: 50%;
   margin-top: 20px;
 
 }
@@ -833,20 +831,30 @@ display: block;
 
 /*mobile device-my service*/
 
-.my_service .container .service_items .service_content{
-  width:100%;
+
+.web-col-horizon .service_content{
+  width:50%;
   margin-bottom: 20px;
+  text-align: center;
+}
+
+.service-video-content{
+  width:100%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.service-language-content{
+  width:100%;
+  margin: 0px auto;
   text-align: center;
 }
 
 
 
-
-
-
 /*mobile device-resume*/
 .resume .container {
-  width:100%;
+  width:90%;
   text-align: center;
 }
 
@@ -861,6 +869,7 @@ display: block;
   width:100%;
   text-align: center;
 }
+
 
 .col-horizontal:first-child {
   border-bottom: 0;
@@ -938,8 +947,27 @@ display: block;
 .yulan .container .resume-work,
 .nccu .container .resume-work,
 .kinder .container .resume-work{
-  width: auto;
+  width: 80%;
+  text-align: left;
 
+}
+
+
+/* mobile device-javascript*/
+.javascript .title {
+  font-size: 40px;
+}
+
+.col {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+.col .hero img,
+.col .todolist img,
+.col .light img{
+  width: 100%;
 }
 
 
@@ -950,9 +978,34 @@ display: block;
 @media screen and (max-width: 790px) {
 .works .container .work-item .col-work {
   width: 100%;
-  max-height: 80%;
-  margin-bottom: 20px;
+
+  margin-bottom: 0px;
 }
+
+.work-info img{
+  margin-bottom: 2px;
+  z-index: 9999;
+}
+
+.work-info h4{
+  width: 100%;
+  display: block;
+  background-color: #f7f7f7;
+  margin-top: 0%;
+  top: 0%;
+  color: black;
+}
+
+
+.work-info h4 p {
+  width: 100%;
+  display: block;
+  background-color: none;
+  margin-top: 0
+  color: black;
+}
+
+
 }
 
 
