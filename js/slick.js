@@ -39,6 +39,8 @@ $(document).on('ready', function(){
    fade: true,
    asNavFor: '.resume-image-slick-nav',
    autoplay: true,
+   pauseOnHover: true,
+    pauseOnDotsHover:true
 
   });
   $('.resume-image-slick-nav').slick({
@@ -49,5 +51,7 @@ $(document).on('ready', function(){
    centerMode: true,
    focusOnSelect: true,
    autoplay: true,
+   pauseOnHover: true,
+    pauseOnDotsHover:true
  });
 });
